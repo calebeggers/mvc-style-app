@@ -1,0 +1,89 @@
+.container {
+	width: 600px;
+	margin: auto;
+}
+
+.header {
+	height: 72px;
+	width: 100%;
+	background-color: #81BC39;
+	color: #fff;
+	border-bottom: 3px solid #649C1A;
+	position: relative;
+}
+
+.title {
+	color: #fff;
+	text-decoration: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 18px;
+}
+
+.form {
+	position: relative;
+}
+
+.form-field {
+	position: relative;
+	border-bottom: 2px solid #EEEEEE;
+}
+
+.form-field input {
+	font-size: 12px;
+	padding: 5px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	&:focus {
+		outline: none;
+	};
+}
+
+.fa-form {
+	position: absolute;
+	left: 115px;
+	font-size: 24px;
+	top: 4px;
+}
+
+.single-contact {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 55px;
+	border-bottom: 2px solid #EFEFEF;
+	position: relative;
+	img {
+		height: 50px;
+		width: 50px;
+		float: left;
+	}
+}
+
+.single-contact-name {
+	float: left;
+	padding: 15px;
+}
+
+.single-contact-phone {
+	float: left;
+	padding: 15px;
+}
+
+.single-contact-location {
+	float: left;
+	padding: 15px;
+}
+
+.button {
+	background-color: #81BC39;
+	height: 50px;
+	width: 100px;
+	border: 0;
+	color: #fff;
+	margin-left: 250px;
+	margin-top: 20px;
+}
